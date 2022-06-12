@@ -5,7 +5,7 @@
 let convertBoolean=(props)=> {
     let answer
     if (props == true) {
-        answer = "yes"
+        answer = "Yes"
     }
     else {
         answer = "No"
@@ -55,10 +55,10 @@ educationFirstUser.push(smaFirstUser)
 
 
 const firstUser = {
-    name : "Monic",
+    name : "Monica",
     gender : "Female",
     age : 17,
-    email : "monic@dingdong.com",
+    email : "monica@dingdong.com",
     favoriteColor : favoriteColorFirstUser,
     isHavetPet : convertBoolean(true),
     education : JSON.stringify(educationFirstUser),
@@ -111,7 +111,7 @@ educationSecoundUser.push(univSecoundUser)
 //restauranSecondUser.add("Sushi")
 
 const secondUser = {
-    name: "wendy",
+    name: "Wendy",
     gender: "Male",
     age: 23,
     emai: "wendy@dingdong.com",
