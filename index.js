@@ -100,26 +100,26 @@ educationSecondUser.push(smpSecondUser)
 educationSecondUser.push(smaSecondUser)
 educationSecondUser.push(univSecondUser)
 
-//const restauranSecondUser = new Set()
-//restauranSecondUser.add("Tempe")
-//restauranSecondUser.add("Mendoan")
-//restauranSecondUser.add("KueRangi")
-//restauranSecondUser.add("NasiUduk")
-//restauranSecondUser.add("Tahu")
-//restauranSecondUser.add("Nasi")
-//restauranSecondUser.add("CangCimen")
-//restauranSecondUser.add("Rendang")
-//restauranSecondUser.add("Sushi")
+// const restauranSecondUser = new Set()
+// restauranSecondUser.add("Tempe")
+// restauranSecondUser.add("Mendoan")
+// restauranSecondUser.add("KueRangi")
+// restauranSecondUser.add("NasiUduk")
+// restauranSecondUser.add("Tahu")
+// restauranSecondUser.add("Nasi")
+// restauranSecondUser.add("CangCimen")
+// restauranSecondUser.add("Rendang")
+// restauranSecondUser.add("Sushi")
 
 const secondUser = {
-    name: "Wendy",
+    name : "Wendy",
     gender: "Male",
     age: 23,
-    emai: "wendy@dingdong.com",
-    favoritColor: favoriteColorSecondUser,
+    email: "wendy@dingdong.com",
+    favoriteColor: favoriteColorSecondUser,
     isHavePet: convertBoolean(false),
     education: JSON.stringify(educationSecondUser),
-    favoriteRestauran: ["Tempura", "Bento", "Sushi", "Padang", "Pancake", "Katsu", "Geprek", "Eggy"],
+    favoriteRestaurant: ["Tempura", "Bento", "Sushi", "Padang", "Pancake", "Katsu", "Geprek", "Eggy"],
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
