@@ -26,14 +26,14 @@ const sdFirstUser = {
 }
 
 const smpFirstUser = {
-    name : "SMP 02",
-    city : "Jakarta",
-    graduate : 2019
+    name: "SMP 02",
+    city: "Jakarta",
+    graduate: 2019
 }
 
 const smaFirstUser = {
-    Name : "SMA 03",
-    graduate : "Tanggerang"
+    name: "SMA 03",
+    city: "Tangerang"
 }
 
 const educationFirstUser = [];
@@ -55,51 +55,50 @@ educationFirstUser.push(smaFirstUser)
 // restauranSet.add("Tiramusi")
 
 
-
 const firstUser = {
     name : "Monica",
-    gender : "Female",
-    age : 17,
-    email : "monica@dingdong.com",
-    favoriteColor : favoriteColorFirstUser,
-    isHavePet : convertBoolean(true),
-    education : JSON.stringify(educationFirstUser),
-    favoriteRestauran : ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Padang", "Tteok"]
+    gender: "Female",
+    age: 17,
+    email: "monica@dingdong.com",
+    favoriteColor: favoriteColorFirstUser,
+    isHavePet: convertBoolean(true),
+    education: JSON.stringify(educationFirstUser),
+    favoriteRestaurant: ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Padang", "Tteok"]
 };
 
 const favoriteColorSecondUser = [];
-favoriteColorSecondUser.push("dark")
-favoriteColorSecondUser.push("Yelow")
-favoriteColorSecondUser.push("White")
+favoriteColorSecondUser.push("Blue")
+favoriteColorSecondUser.push("Black")
+favoriteColorSecondUser.push("Grey")
 
-const sdSecoundUser ={
-    name : "SD 02",
-    city : "Jakarta",
-    graduate : 2010
+const sdSecondUser ={
+    name: "SD 02",
+    city: "Jakarta",
+    graduate: 2010
 }
 
-const smpSecoundUser = {
+const smpSecondUser = {
     name: "SMP 03",
     city: "Bogor",
     graduate: 2013
 }
 
-const smaSecoundUser = {
+const smaSecondUser = {
     name: "SMA 01",
     city: "Surabaya",
     graduate: 2016
 }
 
-const univSecoundUser = {
+const univSecondUser = {
     name: "Universitas Maju",
     city: "Tanggerang"
 }
 
-const educationSecoundUser = [];
-educationSecoundUser.push(sdSecoundUser)
-educationSecoundUser.push(smpSecoundUser)
-educationSecoundUser.push(smaSecoundUser)
-educationSecoundUser.push(univSecoundUser)
+const educationSecondUser = [];
+educationSecondUser.push(sdSecondUser)
+educationSecondUser.push(smpSecondUser)
+educationSecondUser.push(smaSecondUser)
+educationSecondUser.push(univSecondUser)
 
 //const restauranSecondUser = new Set()
 //restauranSecondUser.add("Tempe")
@@ -119,8 +118,8 @@ const secondUser = {
     emai: "wendy@dingdong.com",
     favoritColor: favoriteColorSecondUser,
     isHavePet: convertBoolean(false),
-    education: JSON.stringify(educationSecoundUser),
-    favoriteRestauran: ["Tempura", "Bento", "Sushi","Padang", "Pancake", "Katsu", "Geprek", "Eggy"],
+    education: JSON.stringify(educationSecondUser),
+    favoriteRestauran: ["Tempura", "Bento", "Sushi", "Padang", "Pancake", "Katsu", "Geprek", "Eggy"],
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
