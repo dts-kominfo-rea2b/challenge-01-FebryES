@@ -14,21 +14,23 @@ let convertBoolean=(props)=> {
 }
 
 const favoriteColorFirstUser = [];
-favoriteColorFirstUser.push("Red")
-favoriteColorFirstUser.push("Blue")
-favoriteColorFirstUser.push("Black")
-favoriteColorFirstUser.push("Jingga")
+favoriteColorFirstUser.push("Yellow")
+favoriteColorFirstUser.push("Pink")
+favoriteColorFirstUser.push("White")
+favoriteColorFirstUser.push("Purple")
 
 const sdFirstUser = {
     name: "SD 01",
     city: "Jakarta",
     graduate: 2016
 }
+
 const smpFirstUser = {
     name : "SMP 02",
     city : "Jakarta",
     graduate : 2019
 }
+
 const smaFirstUser = {
     Name : "SMA 03",
     graduate : "Tanggerang"
@@ -60,9 +62,9 @@ const firstUser = {
     age : 17,
     email : "monica@dingdong.com",
     favoriteColor : favoriteColorFirstUser,
-    isHavetPet : convertBoolean(true),
+    isHavePet : convertBoolean(true),
     education : JSON.stringify(educationFirstUser),
-    favoriterestauran : ["Ramen", "Tiramisu", "Pangsit", "Bajigur", "Tektek", "KueTiaw", "Bihun"]
+    favoriteRestauran : ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Padang", "Tteok"]
 };
 
 const favoriteColorSecondUser = [];
@@ -89,7 +91,7 @@ const smaSecoundUser = {
 }
 
 const univSecoundUser = {
-    name: "Universitas Mundur",
+    name: "Universitas Maju",
     city: "Tanggerang"
 }
 
@@ -116,9 +118,9 @@ const secondUser = {
     age: 23,
     emai: "wendy@dingdong.com",
     favoritColor: favoriteColorSecondUser,
-    isHavetPet: convertBoolean(false),
+    isHavePet: convertBoolean(false),
     education: JSON.stringify(educationSecoundUser),
-    favoriterestauran: ["Tempe", "Mendoan", "KurRangi","NasiUduk", "Tahu", "Nasi", "CangCimen", "Rendang"],
+    favoriteRestauran: ["Tempura", "Bento", "Sushi","Padang", "Pancake", "Katsu", "Geprek", "Eggy"],
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
