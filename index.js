@@ -1,11 +1,10 @@
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
-const FirstUser = {};
-const SecondUser = {};
-let convertBoolean=(pros)=> {
+
+let convertBoolean=(props)=> {
     let answer
-    if (`props` == true) {
+    if (props == true) {
         answer = "yes"
     }
     else {
@@ -49,6 +48,10 @@ restauranSet.add("Tektek")
 restauranSet.add("KueTiaw")
 restauranSet.add("Bihun")
 restauranSet.add("Rengginang")
+restauranSet.add("Sushi")
+restauranSet.add("Sushi")
+restauranSet.add("Tiramusi")
+
 
 
 const firstUser = {
@@ -59,7 +62,7 @@ const firstUser = {
     favoriteColor : favoriteColorFirstUser,
     isHavetPet : convertBoolean(true),
     education : JSON.stringify(educationFirstUser),
-    favoriterestauran : restauranSet,
+    favoriterestauran : ["Ramen", "Tiramisu", "Pangsit", "Bajigur", "Tektek", "KueTiaw", "Bihun"]
 };
 
 const favoriteColorSecondUser = [];
@@ -101,9 +104,11 @@ restauranSecondUser.add("Tempe")
 restauranSecondUser.add("Mendoan")
 restauranSecondUser.add("KueRangi")
 restauranSecondUser.add("NasiUduk")
-restauranSecondUser.add("SemurJengkol")
-restauranSecondUser.add("NasiKucing")
+restauranSecondUser.add("Tahu")
+restauranSecondUser.add("Nasi")
 restauranSecondUser.add("CangCimen")
+restauranSecondUser.add("Rendang")
+restauranSecondUser.add("Sushi")
 
 const secondUser = {
     name: "wendy",
@@ -113,7 +118,7 @@ const secondUser = {
     favoritColor: favoriteColorSecondUser,
     isHavetPet: convertBoolean(false),
     education: JSON.stringify(educationSecoundUser),
-    favoriterestauran: restauranSecondUser,
+    favoriterestauran: ["Tempe", "Mendoan", "KurRangi","NasiUduk", "Tahu", "Nasi", "CangCimen", "Rendang"],
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
